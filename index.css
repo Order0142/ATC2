@@ -1,4 +1,7 @@
-
+:root {
+    --blue: #1207AB;
+    --white: #ffffff;
+    --textColor: rgba(21, 12, 33, 0.59);}
 
 * {
     padding: 0;
@@ -37,6 +40,14 @@ a {
 .navigation {display: none;}
 .none {display: none;}
 
-@media only screen and {min-width: 800px;}
-    
+@media only screen and (min-width: 800px) {
+.desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;}
+
+.navigation{display: flex;}
+    .none {display: flex;}
+    .navshortcut {display: none;}
 }
