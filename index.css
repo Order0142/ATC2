@@ -10,3 +10,16 @@
     align-items: center;
     justify-content: space-between;
 }
+.flexcoln {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+body {
+    display: flex;
+    font-size: 100%;
+}
+.desktop {
+    display: none;
+}
