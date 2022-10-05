@@ -28,6 +28,10 @@ a {
 .paddingSides {
     padding-left: 7vw;
     padding-right: 7vw;}
+.paddingtndb{
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
 
 .desktop {display: none;}
 .navigation {display: none;}
