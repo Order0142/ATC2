@@ -13,7 +13,7 @@ body {
 }
 a {
     text-decoration: none;}
-    
+
 .flex {
     display: flex;
     align-items: center;
@@ -25,7 +25,10 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+.paddingSides {
+    padding-left: 7vw;
+    padding-right: 7vw;}
 
-.desktop {
-    display: none;
-}
+.desktop {display: none;}
+.navigation {display: none;}
+.none {display: none;}
