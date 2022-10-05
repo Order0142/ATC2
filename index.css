@@ -17,6 +17,7 @@ body {
 a {
     text-decoration: none;}
 
+
 .flex {
     display: flex;
     align-items: center;
@@ -40,14 +41,20 @@ a {
 .navigation {display: none;}
 .none {display: none;}
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) 
+{
 .desktop {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;}
+.desktop {background-color: var(--blue);
+            color: var(--white);}
 
-.navigation{display: flex;}
-    .none {display: flex;}
-    .navshortcut {display: none;}
+.navigation{display: flex;
+            justify-content: space-between;
+            width: 50%;
+            color: var(--textColor);}
+
+.none {display: flex;}
+.navshortcut {display: none;}
 }
