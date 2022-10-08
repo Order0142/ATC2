@@ -47,26 +47,51 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;}
+
 .desktop {background-color: var(--blue);
             color: var(--white);}
 
+.desktop {
+    padding-top: 1em;
+    padding-bottom: 1em;}
+
+.desktop span a {
+    color: var(--white);
+    }
+.desktop span button {
+        background-color: inherit;
+        border: none;
+        color: #ffffff;
+        align-self: flex-start;
+        font-size: 20px;
+        margin-right: -45px;
+        margin-left: 1.5em;}
+
+.navigation a {
+            color: var(--textColor);
+            font-weight: bold;}
+
 .navigation{display: flex;
-            justify-content: space-between;
-            width: 50%;
-            color: var(--textColor);}
+    justify-content: space-between;
+    width: 50%;
+    color: var(--textColor);}
+
+.navigation a:hover {
+    border-bottom: 5px solid var(--blue);
+}
 
 .none {display: flex;}
 .navshortcut {display: none;}
 
-.contact {
-    border: 1px solid black;
+.linkbtn {
+    border: 1px solid;
+    padding: 0.5em 2em;
     border-radius: 5px;
-    padding: 5px 40px;}
+    width: 100px;
+    text-align: center;}
 
-.cohort {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 5px 30px;
-    color: white;
-}
+.navigation .linkBtn:hover,
+.linkBtn:hover {
+    border: 1px solid;
+    opacity: 0.5;}
 }
