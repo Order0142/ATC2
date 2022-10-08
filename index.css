@@ -57,4 +57,16 @@ a {
 
 .none {display: flex;}
 .navshortcut {display: none;}
+
+.contact {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 40px;}
+
+.cohort {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: white;
+}
 }
