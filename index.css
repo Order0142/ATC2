@@ -77,7 +77,16 @@ a {
     width: 60%;
     color: var(--textColor);}
 
-.navigation a:hover {
+.workstation:hover {
+    border-bottom: 5px solid var(--blue);
+}
+.tech:hover {
+    border-bottom: 5px solid var(--blue);
+}
+.qhse:hover {
+    border-bottom: 5px solid var(--blue);
+}
+.stem:hover {
     border-bottom: 5px solid var(--blue);
 }
 
@@ -93,5 +102,5 @@ a {
 
 .linkBtn:hover {
     border: 1px solid;
-    opacity: 0.5;}
+    opacity: 0;}
 }
