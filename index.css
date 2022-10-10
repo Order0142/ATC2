@@ -52,7 +52,7 @@ section div h3 {
 section div p {
     font-size: 1.3em;
     margin-top: 5vh;
-    margin-bottom: 10vh;}
+    margin-bottom: 8vh;}
 
 section div a {
     border: 1px solid rgb(6, 1, 32);
@@ -63,10 +63,12 @@ section div a {
     color: white;
     font-size: 1em;
     }
-
-    img {
-        ;
-    }
+.desktopimg {
+    display: none;
+}
+.mobileimg {
+    display: block;
+}
 
 @media only screen and (min-width: 800px) 
 {
@@ -147,8 +149,7 @@ section div a {
     background-color: rgb(6, 1, 32);
     color: white;
 }
-
-img {
-    width: 50%;
+.mobileimg {
+    display: none;
 }
 }
