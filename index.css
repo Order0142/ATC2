@@ -104,4 +104,14 @@ a {
 .linkbtn:hover {
     border: 1px solid;
     opacity: 0.5;}
+
+section div h3 {
+    font-size: 3.5em;
+    }
+section div a {
+    border: 1px solid rgb(6, 1, 32);
+    padding: 10px;
+    background-color: rgb(6, 1, 32);
+    color: white;
+}
 }
