@@ -74,7 +74,8 @@ a {
 
 .navigation{display: flex;
     justify-content: space-between;
-    width: 60%;
+    position: static;
+    width: 55%;
     color: var(--textColor);}
 
 .workstation:hover {
@@ -100,7 +101,7 @@ a {
     width: 100px;
     text-align: center;}
 
-.linkBtn:hover {
+.linkbtn:hover {
     border: 1px solid;
-    opacity: 0;}
+    opacity: 0.5;}
 }
