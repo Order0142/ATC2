@@ -22,6 +22,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width:;
 }
 .flexcoln {
     display: flex;
@@ -57,7 +58,7 @@ section div p {
 section div a {
     border: 1px solid rgb(6, 1, 32);
     width: 100%;
-    padding: 3vh 33vw;
+    padding: 3vh;
     border-radius: 10px;
     background-color: rgb(6, 1, 32);
     color: white;
@@ -70,7 +71,7 @@ section div a {
     display: block;
 }
 
-@media only screen and (min-width: 800px) 
+@media only screen and (min-width: 600px) 
 {
 .desktop {
     display: flex;
@@ -160,5 +161,5 @@ section div a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position: static;}
+    position: ;}
 }
