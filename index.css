@@ -22,7 +22,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width:;
 }
 .flexcoln {
     display: flex;
@@ -33,7 +33,6 @@ a {
 .paddingSides {
     padding-left: 7vw;
     padding-right: 7vw;}
-
 .paddingtndb{
     padding-top: 2vw;
     padding-bottom: 1vw;
@@ -56,7 +55,7 @@ section div p {
     margin-top: 5vh;
     margin-bottom: 8vh;}
 
-.started {
+section div a {
     border: 1px solid rgb(6, 1, 32);
     width: 100%;
     padding: 3vh;
@@ -65,14 +64,11 @@ section div p {
     color: white;
     font-size: 1em;
     }
-    
 .desktopimg {
     display: none;
 }
 .mobileimg {
-    display: block;
-    width: 100%;
-    margin-top: 8vh;
+    display: block;z
 }
 
 @media only screen and (min-width: 600px) 
@@ -164,5 +160,6 @@ section div a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+    position: ;}
 }
