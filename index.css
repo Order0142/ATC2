@@ -55,20 +55,24 @@ section div p {
     margin-top: 5vh;
     margin-bottom: 8vh;}
 
-section div a {
+.started {
     border: 1px solid rgb(6, 1, 32);
-    width: 100%;
-    padding: 3vh;
+    width: 90%;
+    padding: 2vh;
     border-radius: 10px;
     background-color: rgb(6, 1, 32);
     color: white;
     font-size: 1em;
+    text-align: center;
     }
+
 .desktopimg {
     display: none;
 }
 .mobileimg {
     display: block;
+    width: 100%;
+    margin-top: 8vh;
 }
 
 @media only screen and (min-width: 600px) 
