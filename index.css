@@ -57,15 +57,14 @@ section div p {
 
 .started {
     border: 1px solid rgb(6, 1, 32);
-    width: 90%;
-    padding: 2vh;
+    width: 100%;
+    padding: 3vh;
     border-radius: 10px;
     background-color: rgb(6, 1, 32);
     color: white;
     font-size: 1em;
-    text-align: center;
     }
-
+    
 .desktopimg {
     display: none;
 }
