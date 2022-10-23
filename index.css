@@ -28,11 +28,11 @@ a {
     width: 100%;
     }
 
-.flexcoln {
+.flexrow {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .paddingtndb{
@@ -167,6 +167,5 @@ section div a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    position: ;}
+    justify-content: space-between;}
 }
