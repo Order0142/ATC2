@@ -11,8 +11,8 @@ body {
     box-sizing: border-box;
     font-size: 100%;
     width: 100%;
-
 }
+
 a {
     text-decoration: none;}
     
@@ -29,12 +29,10 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-.paddingSides {
-    padding-left: 5vw;
-    padding-right: 5vw;}
+
 
 .paddingtndb{
-    padding-top: 2vw;
+    padding-top: 1vw;
     padding-bottom: 1vw;
 }
 
@@ -57,7 +55,7 @@ section div p {
     
 .started {
     border: 1px solid rgb(6, 1, 32);
-    width: 90%;
+    width: 80%;
     padding: 3vh;
     border-radius: 10px;
     background-color: rgb(6, 1, 32);
