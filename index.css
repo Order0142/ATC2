@@ -10,7 +10,7 @@
 body {
     box-sizing: border-box;
     font-size: 100%;
-    width: 100%;
+    width: 98%;
 }
 
 a {
@@ -30,9 +30,8 @@ a {
     justify-content: space-between;
 }
 
-
 .paddingtndb{
-    padding-top: 1vw;
+    padding-top: 2vw;
     padding-bottom: 1vw;
 }
 
