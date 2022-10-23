@@ -10,7 +10,12 @@
 body {
     box-sizing: border-box;
     font-size: 100%;
-    width: 98%;
+    width: 100%;
+}
+
+.marginsides{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a {
@@ -35,6 +40,7 @@ a {
     padding-bottom: 1vw;
 }
 
+
 .desktop {display: none;}
 .navigation {display: none;}
 .none {display: none;}
@@ -54,7 +60,7 @@ section div p {
     
 .started {
     border: 1px solid rgb(6, 1, 32);
-    width: 80%;
+    width: 90%;
     padding: 3vh;
     border-radius: 10px;
     background-color: rgb(6, 1, 32);
