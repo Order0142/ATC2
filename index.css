@@ -30,8 +30,8 @@ a {
   flex-wrap: wrap;
 }
 .paddingSides {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .paddingtndb {
   padding-top: 2vw;
@@ -51,10 +51,11 @@ a {
 #section {
   display: flex;
   flex-direction: column;
+  margin-top: 15vh;
 }
 section div h3 {
   font-size: 2.5em;
-  margin-top: 15vh;
+  
 }
 section div p {
   font-size: 1.1em;
