@@ -53,14 +53,19 @@ a {
   flex-direction: column;
   margin-top: 15vh;
 }
-section div h3 {
+h3 {
   font-size: 2.5em;
+  margin: 3vh 0 3vh;
   
 }
-section div p {
-  font-size: 1.1em;
-  margin-top: 5vh;
-  margin-bottom: 8vh;
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: justify;
+  word-break: keep-all;
+  margin: 1.5vh 0 1.5vh;
+  color: rgba(21, 12, 33, 0.59);
 }
 #section div{
     display: flex;
