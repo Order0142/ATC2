@@ -20,6 +20,12 @@ a {
 .flex {
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -169,10 +175,10 @@ p {
     opacity: 0.5;
   }
 
-  section div h3 {
+h3 {
     font-size: 3.7em;
   }
-  section div p {
+ p {
     font-size: 1.3em;
     margin-top: 5vh;
     margin-bottom: 10vh;
